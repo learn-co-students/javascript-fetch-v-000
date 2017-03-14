@@ -1,5 +1,5 @@
 
-const token = 'eadb7d5fb1fca4cef7632d91581d2411ef14d699'
+const token = 'removed!'
 fetch('https://api.github.com/user/repos', {
   headers: {
     Authorization: `token ${token}`
