@@ -1,4 +1,4 @@
-const app = "I don't do much.";
+// XHR //
 
 let xhr = new XMLHttpRequest();
 xhr.open('GET', 'https://api.github.com/repos/jquery/jquery/commits');
@@ -14,7 +14,7 @@ xhr.onerror = function() {
 
 xhr.send();
 
-
+// fetch() //
 
 fetch('https://api.github.com/repos/jquery/jquery/commits')
   .then(res => res.json())
