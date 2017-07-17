@@ -21,7 +21,7 @@ fetch('https://api.github.com/repos/jquery/jquery/commits')
 	.then(json => console.log(json)); 
 */
 
-const token = 'e192a84647f7ee2ad993290d0f8a178e0e70575b' 
+const token = '' 
 
 fetch('https://api.github.com/user/repos', {
   headers: {
