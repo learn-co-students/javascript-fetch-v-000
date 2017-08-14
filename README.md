@@ -1,5 +1,5 @@
 # JavaScript fetch()
-
+  
 ## Overview
 
 We'll use  `fetch()` and describe the problems that it helps solve. 
